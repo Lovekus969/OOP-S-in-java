@@ -54,3 +54,76 @@ class Duck implements Flyable, Swimmable {
         System.out.println("Duck is swimming");
     }
 }
+
+
+
+FAANG-Favorite OOP Questions
+1️⃣ Design a Parking Lot System
+Type: OOP Design
+
+Asked By: Google, Amazon, Uber
+
+Key Concepts:
+
+Classes like ParkingLot, Vehicle, Ticket, ParkingSpot
+
+Inheritance for Car, Bike, Truck
+
+Enums for vehicle types, spot sizes
+
+Design Patterns: Singleton (parking manager), Strategy
+
+2️⃣ Design a Library Management System
+Type: System Design (OOP)
+
+Asked By: Amazon, Microsoft
+
+Key Concepts:
+
+Classes: Library, Book, Member, Librarian, Reservation
+
+Relationships: Aggregation, Composition
+
+Methods: searchBook(), borrowBook(), returnBook()
+
+3️⃣ Difference Between Composition vs Inheritance
+Type: Conceptual
+
+Expected Answer:
+
+Inheritance is "is-a" relationship
+
+Composition is "has-a" relationship
+
+Prefer composition to reduce tight coupling and increase flexibility
+
+4️⃣ SOLID Principles Explanation
+Type: Deep Theoretical + Design
+
+Expected Questions:
+
+What is Liskov Substitution Principle?
+
+What happens if you violate the Open/Closed principle?
+
+🎓 These principles guide good class design. They are asked heavily during design round.
+
+5️⃣ Design Elevator System
+Type: OOP System Design
+
+Asked By: Facebook, Amazon
+
+Classes: Elevator, Floor, ElevatorRequest, ElevatorController
+
+Key OOP: Abstraction, Polymorphism, Encapsulation, State Machines
+
+⚒️ Other OOP Design Questions:
+Design ATM Machine
+
+Design Online Shopping Cart
+
+Design Splitwise (expense sharing app)
+
+Design Chess / Tic Tac Toe using OOP
+
+Design Ride Sharing App (Uber-like)
