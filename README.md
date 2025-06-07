@@ -26,6 +26,7 @@ class Dog extends Animal {
     void sound() {
         System.out.println("Bark");
     }
+    //see
 }
 2. Interface
 What: A pure abstract contract that defines methods without implementations (Java 7/8+ allows default and static methods too).
